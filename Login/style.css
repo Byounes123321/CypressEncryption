@@ -1,0 +1,41 @@
+#output {
+    display: none;
+    border: 3px solid black;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+
+.user-auth {
+    border: 3px dashed black;
+    padding: 5px;
+}
+
+.user-auth__button {
+    margin: 10px;
+}
+
+.user-auth__item_modified-red {
+    background-color: red;
+}
+
+.user-auth__item_modified-white {
+    background-color: white;
+}
+
+
+#output__lable {
+    display: inline;
+    margin-left: 20px;
+
+}
+
+#output__username {
+    display: inline;
+    font-weight: bold;
+}
+
+#output__password {
+    display: inline;
+    font-weight: bold;
+}

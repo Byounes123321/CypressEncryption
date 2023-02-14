@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <H1>Login Page</H1>
+    <div class="user-auth">
+        <form name="userAuth__form">
+            <fieldset>
+                <legend>User Authentication</legend>
+                <label class="user-auth__userLable">
+                    Username:
+                </label>
+                <input type="text" name="userAuth__username">
+                <br>
+                <label class="user-auth__passLable">
+                    Password:
+                </label>
+                <input type="password" name="userAuth__password">
+                <br>
+                <input type="submit" id="user-auth__button"></input>
+            </fieldset>
+        </form>
+    </div>
+    <div id="output">
+        <div>
+            <p id="output__lable">User Name: </p>
+            <p id="output__username">output</p>
+        </div>
+        <br>
+        <div>
+            <p id="output__lable">Password:</p>
+            <p id="output__password">output</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
